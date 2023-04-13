@@ -95,7 +95,7 @@ function saveAlarm(){
         document.getElementById("setBtn").innerHTML="Cancel Alarm";
 
 
-        //when alarm's time is equal to clock's time then audio play after 1 second.
+        //when alarm's time is equal to clock's time then audio will play in interval of 1 sec
         if(document.getElementById("hr").innerHTML==hour && document.getElementById("min").innerHTML==minute && document.getElementById("sec").innerHTML==second){
             var audio=new Audio("Alarm Clock Alarm.mp3");
             setInterval(() => {
