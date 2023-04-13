@@ -1,0 +1,78 @@
+/* Styling Image*/
+body{
+    background-image: url(clock-1274699.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+/*styling the current timing*/
+#currentTime{
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-left: 169px;
+    padding-top: 116px;
+    color: rgb(233, 146, 16);
+}
+
+/* styling of date*/
+#date{
+    
+    text-align: 130px;
+    padding-left: 198px;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 24px;
+    color: rgb(233, 146, 16);
+    
+
+}
+
+#alarmSet{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+#setBtn{
+    height: 57px;
+    width: 160px;
+    font-size: large;
+    border-radius: 20px;
+    cursor:pointer;
+    font-weight: bold;
+    background-color: rgb(252, 211, 9);
+}
+
+#settime{
+    padding-left: 104px;
+    padding-top: 20px;
+    visibility: hidden;
+    color: black;
+
+}
+
+/*for set time*/
+#setHr,#setMin,#setSec{
+    font-weight: bold;
+    height: 45px;
+    width: 115px;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(252, 211, 9);
+}
+
+/*styling for set button of alarm*/
+#saveAlarm{
+    height: 57px;
+    width: 160px;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 99px;
+    background-color:rgb(252, 211, 9) ;
+}
